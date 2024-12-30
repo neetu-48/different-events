@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* navbar */
+.event {
+    font-family: "Poppins", serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48.6px;
+    text-align: left;
+    color: #2C49FE;
+}
+
+.Free {
+    color: #01C8FF;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.active {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.fill-btn {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(44, 73, 254, 1);
+    padding: 11px 28px 11px 28px;
+    border-radius: 23px;
+    border: 1px solid rgba(44, 73, 254, 1);
+}
+.gap-60{
+    gap: 60px;
+}
+.events .container{
+    max-width: 1320px !important;
+}
+/* events-page */
+.events {
+    background-image: url(../images/png/events-img.png);
+}
